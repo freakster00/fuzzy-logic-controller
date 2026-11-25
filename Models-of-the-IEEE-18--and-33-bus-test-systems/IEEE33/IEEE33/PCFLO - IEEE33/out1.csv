@@ -1,0 +1,236 @@
+ pcflo version 6.0.        
+ U.T. Austin Power System Engineering                                                                                    
+ capabilities =  5000 busses, 12500 lines and transformers
+ read options file
+ global resistance doubling harmonic is ignored
+ global linear motor load modeling fraction is    0.000
+ harmonics calc. for harmonics  1 through 49,
+ newton-raphson loadflow calculation, with gauss-seidel start
+ (avg. p-q mismatch for switch over to newton-raphson =   0.50000000 pu,
+ acceleration factor =  1.20, gauss-seidel voltage update limit =   0.0050 pu)
+ full solution.
+ use series r,l harmonics model for linear pq loads
+ read bus data (first pass)
+
+                                                                                                                         , pcflo version = 6.0.        
+
+ bus data - pu  (percent power)
+  bus  name         type     p gen    q gen   p load   q load  voltage  q shunt    qgmax    qgmin area  rem.bus
+    1  Sub 1           1      0.00     0.00     0.00     0.00   1.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+    2  Sub 2           3      0.00     0.00     1.00     0.60   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+    3  Sub 3           3      0.00     0.00     0.90     0.40   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+    4  Sub 4           3      0.00     0.00     1.20     0.80   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+    5  Sub 5           3      0.00     0.00     0.60     0.30   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+    6  Sub 6           3      0.00     0.00     0.60     0.20   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+    7  Sub 7           3      0.00     0.00     2.00     1.00   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+    8  Sub 8           3      0.00     0.00     2.00     1.00   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+    9  Sub 9           3      0.00     0.00     0.60     0.20   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   10  Sub 10          3      0.00     0.00     0.60     0.20   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   11  Sub 11          3      0.00     0.00     0.45     0.30   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   12  Sub 12          3      0.00     0.00     0.60     0.35   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   13  Sub 13          3      0.00     0.00     0.60     0.35   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    21 ***
+ user-specified spectral data is needed for this bus to perform
+ a full harmonics study
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   14  Sub 14          3      0.00     0.00     1.20     0.80   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   15  Sub 15          3      0.00     0.00     0.60     0.10   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   16  Sub 16          3      0.00     0.00     0.60     0.20   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   17  Sub 17          3      0.00     0.00     0.60     0.20   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   18  Sub 18          3      0.00     0.00     0.90     0.40   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   19  Sub 19          3      0.00     0.00     0.90     0.40   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   20  Sub 20          3      0.00     0.00     0.90     0.40   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   21  Sub 21          3      0.00     0.00     0.90     0.40   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   22  Sub 22          3      0.00     0.00     0.90     0.40   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   23  Sub 23          3      0.00     0.00     0.90     0.50   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   24  Sub 24          3      0.00     0.00     4.20     2.00   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   25  Sub 25          3      0.00     0.00     4.20     2.00   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    21 ***
+ user-specified spectral data is needed for this bus to perform
+ a full harmonics study
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   26  Sub 26          3      0.00     0.00     0.60     0.25   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   27  Sub 27          3      0.00     0.00     0.60     0.25   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   28  Sub 28          3      0.00     0.00     0.60     0.20   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   29  Sub 29          3      0.00     0.00     1.20     0.70   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   30  Sub 30          3      0.00     0.00     2.00     6.00   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   31  Sub 31          3      0.00     0.00     1.50     0.70   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   32  Sub 32          3      0.00     0.00     2.10     1.00   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   33  Sub 33          3      0.00     0.00     0.60     0.40   0.0000     0.00     0.00     0.00    0        0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ number of busses =    33, number of pv busses =     0,
+ number of remote controlled voltage busses =        0
+ read line and transformer data (first pass)
+
+                                                                                                                         , pcflo version = 6.0.        
+
+ line and transformer data - pu (phase shift in degrees)
+ from    to                                                                                               control control  control
+                                                          tmin or   tmax or  tstep or                                     power or
+  bus   bus ckt        r1        x1        c1    rating      amin      amax     astep       tap  phse shft    bus    side  voltage
+    1     2   0    0.0058    0.0029      0.00        0.   0.00000   0.00000   0.00000   1.00000      0.00       0       0    0.000
+ *** for above, message code =    13 ***
+ zero sequence data not specified.  will not be able to perform zero
+ sequence fault or harmonic analyses.  only one message of this type will appear.
+    2     3   0    0.0308    0.0157      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+    3     4   0    0.0228    0.0116      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+    4     5   0    0.0238    0.0121      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+    5     6   0    0.0511    0.0441      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+    6     7   0    0.0117    0.0386      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+    7     8   0    0.0444    0.0147      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+    8     9   0    0.0643    0.0462      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+    9    10   0    0.0651    0.0462      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+   10    11   0    0.0123    0.0041      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+   11    12   0    0.0234    0.0077      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+   12    13   0    0.0916    0.0721      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+   13    14   0    0.0338    0.0445      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+   14    15   0    0.0369    0.0328      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+   15    16   0    0.0466    0.0340      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+   16    17   0    0.0804    0.1074      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+   17    18   0    0.0457    0.0358      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+    2    19   0    0.0102    0.0098      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+   19    20   0    0.0939    0.0846      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+   20    21   0    0.0255    0.0298      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+   21    22   0    0.0442    0.0585      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+    3    23   0    0.0282    0.0192      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+   23    24   0    0.0560    0.0442      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+   24    25   0    0.0559    0.0437      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+    6    26   0    0.0127    0.0065      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+   26    27   0    0.0177    0.0090      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+   27    28   0    0.0661    0.0583      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+   28    29   0    0.0502    0.0437      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+   29    30   0    0.0317    0.0161      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+   30    31   0    0.0608    0.0601      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+   31    32   0    0.0194    0.0226      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+   32    33   0    0.0213    0.0331      0.00        0.   0.00000   0.00000   0.00000   0.00000      0.00       0       0    0.000
+ number of lines  =    31, number of transformers =     1,
+ number of voltage regulating transformers =     0
+ number of phase regulating transformers =     0
+ order busses according to method 2
+
+ end of starting estimates
+
+                                                                                                                         , pcflo version = 6.0.        
+
+ loadflow iteration summary
+            absolute active power mismatch    absolute reactive power mismatch
+                                     worst                               worst
+ iteration       average     worst     bus           average     worst     bus
+
+         0          1.46      9.00      25              0.94      6.00      30
+ minv =   1.0000 at     1,Sub 1       . maxv =   1.0000 at     1,Sub 1       
+ (nr)    1          0.14      0.85       7              0.13      0.88      30
+ minv =   0.8842 at    18,Sub 18      . maxv =   1.0000 at     1,Sub 1       
+ (nr)    2          0.00      0.02       7              0.00      0.02      30
+ minv =   0.8705 at    18,Sub 18      . maxv =   1.0000 at     1,Sub 1       
+ (nr)    3          0.00      0.00       7              0.00      0.00      12
+ minv =   0.8703 at    18,Sub 18      . maxv =   1.0000 at     1,Sub 1       
+ read current spectra data (first pass)
+
+                                                                                                                         , pcflo version = 6.0.        
+
+ end of harmonics-related initialization
+
+                                                                                                                         , pcflo version = 6.0.        
+
+                                                                                                                         , pcflo version = 6.0.        
+ jacobian fill factor =    0.1 percent
+ jacobian fill factor =    0.1 percent
+ jacobian fill factor =    0.1 percent
+ jacobian fill factor =    0.1 percent
+ jacobian fill factor =    0.1 percent
+ jacobian fill factor =    0.1 percent
+ jacobian fill factor =    0.1 percent
+ jacobian fill factor =    0.1 percent
+ jacobian fill factor =    0.1 percent
+ jacobian fill factor =    0.1 percent
+ jacobian fill factor =    0.1 percent
+ jacobian fill factor =    0.1 percent
+ jacobian fill factor =    0.1 percent
+ jacobian fill factor =    0.1 percent
+ jacobian fill factor =    0.1 percent
+ jacobian fill factor =    0.1 percent
+ the highest voltage for harmonic  1 is  1.000 pu, at bus     1, "Sub 1       "
+ the highest voltage for harmonic  5 is  0.025 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic  7 is  0.024 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 11 is  0.024 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 13 is  0.024 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 17 is  0.024 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 19 is  0.024 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 23 is  0.023 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 25 is  0.024 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 29 is  0.023 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 31 is  0.023 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 35 is  0.024 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 37 is  0.023 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 41 is  0.023 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 43 is  0.023 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 47 is  0.023 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 49 is  0.023 pu, at bus    13, "Sub 13      "
+ the highest voltage thd,    10.71 percent, occurs at bus    13, "Sub 13      "
+
+                                                                                                                         , pcflo version = 6.0.        
+ end of run

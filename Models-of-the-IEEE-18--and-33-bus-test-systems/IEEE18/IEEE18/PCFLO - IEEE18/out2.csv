@@ -1,0 +1,117 @@
+ pcflo version 6.0.        
+ U.T. Austin Power System Engineering                                                                                    
+ capabilities =  5000 busses, 12500 lines and transformers
+
+                                                                                                                         , pcflo version = 6.0.        
+
+ bus data - pu  (percent power)
+                   shunt                                                                bus
+                     con                                                                con
+  bus  name         type         r1        x1        r2        x2        r0        x0  type        rg        xg
+    1  BUS1           0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+    2  BUS2           0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+    3  BUS3           0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+    4  BUS4           0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+    5  BUS5           0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ *** for above, message code =    21 ***
+ user-specified spectral data is needed for this bus to perform
+ a full harmonics study
+    6  BUS6           0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+    7  BUS7           0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+    8  BUS8           0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+    9  BUS9           0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   10  BUS10          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   11  BUS11          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   12  BUS12          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   13  BUS13          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   14  BUS14          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   15  BUS15          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   16  BUS16          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   17  BUS17          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   18  BUS18          0      0.0000    0.0001    0.0000    0.0001    0.0000    0.0001    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ number of busses =    18, number of pv busses =     0,
+ number of remote controlled voltage busses =        0
+
+                                                                                                                         , pcflo version = 6.0.        
+
+ line and transformer data - pu  (tap in per unit, phase shift in degrees)
+                                    trans
+ from    to                           con
+  bus   bus ckt        r0        x0        c0  type         rg        xg
+    1     2   0      0.00      0.00      0.00     0       0.00      0.00
+ *** for above, message code =    13 ***
+ zero sequence data not specified.  will not be able to perform zero
+ sequence fault or harmonic analyses.  only one message of this type will appear.
+    2     3   0      0.00      0.00      0.00     0       0.00      0.00
+    3     4   0      0.00      0.00      0.00     0       0.00      0.00
+    4     5   0      0.00      0.00      0.00     0       0.00      0.00
+    5     6   0      0.00      0.00      0.00     0       0.00      0.00
+    6     7   0      0.00      0.00      0.00     0       0.00      0.00
+    7     8   0      0.00      0.00      0.00     0       0.00      0.00
+    2     9   0      0.00      0.00      0.00     0       0.00      0.00
+    1    10   0      0.00      0.00      0.00     0       0.00      0.00
+   10    11   0      0.00      0.00      0.00     0       0.00      0.00
+   11    12   0      0.00      0.00      0.00     0       0.00      0.00
+   11    13   0      0.00      0.00      0.00     0       0.00      0.00
+   13    14   0      0.00      0.00      0.00     0       0.00      0.00
+   13    15   0      0.00      0.00      0.00     0       0.00      0.00
+   15    16   0      0.00      0.00      0.00     0       0.00      0.00
+   15    16   0      0.00      0.00      0.00     0       0.00      0.00
+   17     1   0      0.00      0.00      0.00     0       0.00      0.00
+   17    18   0      0.00      0.00      0.00     0       0.00      0.00
+ number of lines  =    18, number of transformers =     0,
+ number of voltage regulating transformers =     0
+ number of phase regulating transformers =     0
+
+                                                                                                                         , pcflo version = 6.0.        
+ end of run

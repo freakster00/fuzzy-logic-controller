@@ -1,0 +1,108 @@
+ pcflo version 6.0.        
+ U.T. Austin Power System Engineering                                                                                    
+ capabilities =  5000 busses, 12500 lines and transformers
+
+                                                                                                                         , pcflo version = 6.0.        
+
+ bus data - pu  (percent power)                                        load
+  bus  name                nl pgen    nl pload      nl dpf   nl type  nl shift   con
+    1  Sub 1                  0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+    2  Sub 2                  0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+    3  Sub 3                  0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+    4  Sub 4                  0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+    5  Sub 5                  0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+    6  Sub 6                  0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+    7  Sub 7                  0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+    8  Sub 8                  0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+    9  Sub 9                  0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+   10  Sub 10                 0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+   11  Sub 11                 0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+   12  Sub 12                 0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+   13  Sub 13                 0.00        4.80      0.8000      30        0.00     0
+ *** for above, message code =    21 ***
+ user-specified spectral data is needed for this bus to perform
+ a full harmonics study
+ *** for above, message code =    16 ***
+   14  Sub 14                 0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+   15  Sub 15                 0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+   16  Sub 16                 0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+   17  Sub 17                 0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+   18  Sub 18                 0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+   19  Sub 19                 0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+   20  Sub 20                 0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+   21  Sub 21                 0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+   22  Sub 22                 0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+   23  Sub 23                 0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+   24  Sub 24                 0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+   25  Sub 25                 0.00        4.80      0.8000      30        0.00     0
+ *** for above, message code =    21 ***
+ user-specified spectral data is needed for this bus to perform
+ a full harmonics study
+ *** for above, message code =    16 ***
+   26  Sub 26                 0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+   27  Sub 27                 0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+   28  Sub 28                 0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+   29  Sub 29                 0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+   30  Sub 30                 0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+   31  Sub 31                 0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+   32  Sub 32                 0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+   33  Sub 33                 0.00        0.00      0.0000       0        0.00     0
+ *** for above, message code =    16 ***
+ number of busses =    33, number of pv busses =     0,
+ number of remote controlled voltage busses =        0
+
+                                                                                                                         , pcflo version = 6.0.        
+ *** for above, message code =    13 ***
+
+ user-specfied harmonic current spectral data for nonlinear loads and generators
+ series     nl type     harmonic   current mag (pu)     current ang (degrees)
+   SIN         30            1               1.000000                      0.00
+   SIN         30            5               0.200000                      0.00
+   SIN         30            7               0.143000                      0.00
+   SIN         30           11               0.091000                      0.00
+   SIN         30           13               0.077000                      0.00
+   SIN         30           17               0.059000                      0.00
+   SIN         30           19               0.053000                      0.00
+   SIN         30           23               0.043000                      0.00
+   SIN         30           25               0.040000                      0.00
+   SIN         30           29               0.034000                      0.00
+   SIN         30           31               0.032000                      0.00
+   SIN         30           35               0.029000                      0.00
+   SIN         30           37               0.027000                      0.00
+   SIN         30           41               0.024000                      0.00
+   SIN         30           43               0.023000                      0.00
+   SIN         30           47               0.021000                      0.00
+   SIN         30           49               0.020000                      0.00
+
+                                                                                                                         , pcflo version = 6.0.        
+ end of run

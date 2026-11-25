@@ -1,0 +1,24 @@
+:Harmonic Current Spectral Data,,,,
+:,,,,Current
+:Type of,,,Current,Harmonic
+:Series,Nonlinear,Harmonic,Harmonic,Phase
+:(SIN or,Load,Order,Mag.,Angle
+:COS),Type,(Integer),(pu),(Degrees)
+:(A),(I),(I),(F),(F)
+SIN,30,1,1.000,0
+SIN,30,5,0.200,0
+SIN,30,7,0.143,0
+SIN,30,11,0.091,0
+SIN,30,13,0.077,0
+SIN,30,17,0.059,0
+SIN,30,19,0.053,0
+SIN,30,23,0.043,0
+SIN,30,25,0.040,0
+SIN,30,29,0.034,0
+SIN,30,31,0.032,0
+SIN,30,35,0.029,0
+SIN,30,37,0.027,0
+SIN,30,41,0.024,0
+SIN,30,43,0.023,0
+SIN,30,47,0.021,0
+SIN,30,49,0.020,0

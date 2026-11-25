@@ -1,0 +1,445 @@
+ pcflo version 6.0.        
+ U.T. Austin Power System Engineering                                                                                    
+ capabilities =  5000 busses, 12500 lines and transformers
+ read options file
+ global resistance doubling harmonic is ignored
+ global linear motor load modeling fraction is    0.000
+ harmonics calc. for harmonics  1 through 49,
+ newton-raphson loadflow calculation, with gauss-seidel start
+ (avg. p-q mismatch for switch over to newton-raphson =   0.50000000 pu,
+ acceleration factor =  1.20, gauss-seidel voltage update limit =   0.0050 pu)
+ full solution.
+ use series r,l harmonics model for linear pq loads
+ read bus data (first pass)
+ read bus data (second pass)
+ 1  Sub 1           1      0.00     0.00     0.00     0.00   1.0000     0.00    
+  0.00     0.00    0        0
+ 1  Sub 1          0      0.0020    0.0200    0.0020    0.0200    0.0020    0.02
+ 00    0     0.0000    0.0000
+ 1  Sub 1                  0.00        0.00      0.0000       0        0.00     
+ 0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 2  Sub 2           3      0.00     0.00     1.00     0.60   0.0000     0.00    
+  0.00     0.00    0        0
+ 2  Sub 2          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.00
+ 00    0     0.0000    0.0000
+ 2  Sub 2                  0.00        0.00      0.0000       0        0.00     
+ 0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 3  Sub 3           3      0.00     0.00     0.90     0.40   0.0000     0.00    
+  0.00     0.00    0        0
+ 3  Sub 3          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.00
+ 00    0     0.0000    0.0000
+ 3  Sub 3                  0.00        0.00      0.0000       0        0.00     
+ 0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 4  Sub 4           3      0.00     0.00     1.20     0.80   0.0000     0.00    
+  0.00     0.00    0        0
+ 4  Sub 4          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.00
+ 00    0     0.0000    0.0000
+ 4  Sub 4                  0.00        0.00      0.0000       0        0.00     
+ 0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 5  Sub 5           3      0.00     0.00     0.60     0.30   0.0000     0.00    
+  0.00     0.00    0        0
+ 5  Sub 5          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.00
+ 00    0     0.0000    0.0000
+ 5  Sub 5                  0.00        0.00      0.0000       0        0.00     
+ 0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 6  Sub 6           3      0.00     0.00     0.60     0.20   0.0000     0.00    
+  0.00     0.00    0        0
+ 6  Sub 6          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.00
+ 00    0     0.0000    0.0000
+ 6  Sub 6                  0.00        0.00      0.0000       0        0.00     
+ 0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 7  Sub 7           3      0.00     0.00     2.00     1.00   0.0000     0.00    
+  0.00     0.00    0        0
+ 7  Sub 7          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.00
+ 00    0     0.0000    0.0000
+ 7  Sub 7                  0.00        0.00      0.0000       0        0.00     
+ 0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 8  Sub 8           3      0.00     0.00     2.00     1.00   0.0000     0.00    
+  0.00     0.00    0        0
+ 8  Sub 8          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.00
+ 00    0     0.0000    0.0000
+ 8  Sub 8                  0.00        0.00      0.0000       0        0.00     
+ 0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 9  Sub 9           3      0.00     0.00     0.60     0.20   0.0000     0.00    
+  0.00     0.00    0        0
+ 9  Sub 9          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.00
+ 00    0     0.0000    0.0000
+ 9  Sub 9                  0.00        0.00      0.0000       0        0.00     
+ 0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 10  Sub 10          3      0.00     0.00     0.60     0.20   0.0000     0.00   
+   0.00     0.00    0        0
+ 10  Sub 10         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 10  Sub 10                 0.00        0.00      0.0000       0        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 11  Sub 11          3      0.00     0.00     0.45     0.30   0.0000     0.00   
+   0.00     0.00    0        0
+ 11  Sub 11         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 11  Sub 11                 0.00        0.00      0.0000       0        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 12  Sub 12          3      0.00     0.00     0.60     0.35   0.0000     0.00   
+   0.00     0.00    0        0
+ 12  Sub 12         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 12  Sub 12                 0.00        0.00      0.0000       0        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 13  Sub 13          3      0.00     0.00     0.60     0.35   0.0000     0.00   
+   0.00     0.00    0        0
+ 13  Sub 13         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 13  Sub 13                 0.00        4.80      0.8000      30        0.00    
+  0
+ *** for above, message code =    21 ***
+ user-specified spectral data is needed for this bus to perform
+ a full harmonics study
+ 13  Sub 13          3      0.00     0.00     0.60     0.35   0.0000     0.00   
+   0.00     0.00    0        0
+ 13  Sub 13         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 13  Sub 13                 0.00        4.80      0.8000      30        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 14  Sub 14          3      0.00     0.00     1.20     0.80   0.0000     0.00   
+   0.00     0.00    0        0
+ 14  Sub 14         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 14  Sub 14                 0.00        0.00      0.0000       0        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 15  Sub 15          3      0.00     0.00     0.60     0.10   0.0000     0.00   
+   0.00     0.00    0        0
+ 15  Sub 15         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 15  Sub 15                 0.00        0.00      0.0000       0        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 16  Sub 16          3      0.00     0.00     0.60     0.20   0.0000     0.00   
+   0.00     0.00    0        0
+ 16  Sub 16         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 16  Sub 16                 0.00        0.00      0.0000       0        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 17  Sub 17          3      0.00     0.00     0.60     0.20   0.0000     0.00   
+   0.00     0.00    0        0
+ 17  Sub 17         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 17  Sub 17                 0.00        0.00      0.0000       0        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 18  Sub 18          3      0.00     0.00     0.90     0.40   0.0000     0.00   
+   0.00     0.00    0        0
+ 18  Sub 18         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 18  Sub 18                 0.00        0.00      0.0000       0        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 19  Sub 19          3      0.00     0.00     0.90     0.40   0.0000     0.00   
+   0.00     0.00    0        0
+ 19  Sub 19         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 19  Sub 19                 0.00        0.00      0.0000       0        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 20  Sub 20          3      0.00     0.00     0.90     0.40   0.0000     0.00   
+   0.00     0.00    0        0
+ 20  Sub 20         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 20  Sub 20                 0.00        0.00      0.0000       0        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 21  Sub 21          3      0.00     0.00     0.90     0.40   0.0000     0.00   
+   0.00     0.00    0        0
+ 21  Sub 21         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 21  Sub 21                 0.00        0.00      0.0000       0        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 22  Sub 22          3      0.00     0.00     0.90     0.40   0.0000     0.00   
+   0.00     0.00    0        0
+ 22  Sub 22         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 22  Sub 22                 0.00        0.00      0.0000       0        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 23  Sub 23          3      0.00     0.00     0.90     0.50   0.0000     0.00   
+   0.00     0.00    0        0
+ 23  Sub 23         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 23  Sub 23                 0.00        0.00      0.0000       0        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 24  Sub 24          3      0.00     0.00     4.20     2.00   0.0000     0.00   
+   0.00     0.00    0        0
+ 24  Sub 24         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 24  Sub 24                 0.00        0.00      0.0000       0        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 25  Sub 25          3      0.00     0.00     4.20     2.00   0.0000     0.00   
+   0.00     0.00    0        0
+ 25  Sub 25         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 25  Sub 25                 0.00        4.80      0.8000      30        0.00    
+  0
+ *** for above, message code =    21 ***
+ user-specified spectral data is needed for this bus to perform
+ a full harmonics study
+ 25  Sub 25          3      0.00     0.00     4.20     2.00   0.0000     0.00   
+   0.00     0.00    0        0
+ 25  Sub 25         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 25  Sub 25                 0.00        4.80      0.8000      30        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 26  Sub 26          3      0.00     0.00     0.60     0.25   0.0000     0.00   
+   0.00     0.00    0        0
+ 26  Sub 26         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 26  Sub 26                 0.00        0.00      0.0000       0        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 27  Sub 27          3      0.00     0.00     0.60     0.25   0.0000     0.00   
+   0.00     0.00    0        0
+ 27  Sub 27         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 27  Sub 27                 0.00        0.00      0.0000       0        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 28  Sub 28          3      0.00     0.00     0.60     0.20   0.0000     0.00   
+   0.00     0.00    0        0
+ 28  Sub 28         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 28  Sub 28                 0.00        0.00      0.0000       0        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 29  Sub 29          3      0.00     0.00     1.20     0.70   0.0000     0.00   
+   0.00     0.00    0        0
+ 29  Sub 29         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 29  Sub 29                 0.00        0.00      0.0000       0        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 30  Sub 30          3      0.00     0.00     2.00     6.00   0.0000     0.00   
+   0.00     0.00    0        0
+ 30  Sub 30         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 30  Sub 30                 0.00        0.00      0.0000       0        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 31  Sub 31          3      0.00     0.00     1.50     0.70   0.0000     0.00   
+   0.00     0.00    0        0
+ 31  Sub 31         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 31  Sub 31                 0.00        0.00      0.0000       0        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 32  Sub 32          3      0.00     0.00     2.10     1.00   0.0000     0.00   
+   0.00     0.00    0        0
+ 32  Sub 32         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 32  Sub 32                 0.00        0.00      0.0000       0        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ 33  Sub 33          3      0.00     0.00     0.60     0.40   0.0000     0.00   
+   0.00     0.00    0        0
+ 33  Sub 33         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0
+ 000    0     0.0000    0.0000
+ 33  Sub 33                 0.00        0.00      0.0000       0        0.00    
+  0
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ number of busses =    33, number of pv busses =     0,
+ number of remote controlled voltage busses =        0
+ read line and transformer data (first pass)
+ read line and transformer data (second pass)
+ 1     2   0    0.0058    0.0029      0.00        0.   0.00000   0.00000   0.000
+ 00   1.00000      0.00       0       0    0.000
+ 1     2   0      0.00      0.00      0.00     1       0.00      0.00
+ *** for above, message code =    13 ***
+ zero sequence data not specified.  will not be able to perform zero
+ sequence fault or harmonic analyses.  only one message of this type will appear.
+ number of lines  =    31, number of transformers =     1,
+ number of voltage regulating transformers =     0
+ number of phase regulating transformers =     0
+ order busses according to method 2
+ build positive sequence admittance matrix for harmonic   1.00
+ check network continuity
+ initialize bus voltages and power vector
+
+ loadflow iteration summary
+            absolute active power mismatch    absolute reactive power mismatch
+                                     worst                               worst
+ iteration       average     worst     bus           average     worst     bus
+
+         0          1.46      9.00      25              0.94      6.00      30
+ minv =   1.0000 at     1,Sub 1       . maxv =   1.0000 at     1,Sub 1       
+ num. of jac. elements =       376, len. of jac. stor. vector =        220
+ (nr)    1          0.14      0.85       7              0.13      0.88      30
+ minv =   0.8842 at    18,Sub 18      . maxv =   1.0000 at     1,Sub 1       
+ num. of jac. elements =       376, len. of jac. stor. vector =        220
+ (nr)    2          0.00      0.02       7              0.00      0.02      30
+ minv =   0.8705 at    18,Sub 18      . maxv =   1.0000 at     1,Sub 1       
+ num. of jac. elements =       376, len. of jac. stor. vector =        220
+ (nr)    3          0.00      0.00       7              0.00      0.00      12
+ minv =   0.8703 at    18,Sub 18      . maxv =   1.0000 at     1,Sub 1       
+ initialize harmonics-related matrices and vectors
+ read current spectra data (first pass)
+ read current spectra data (second pass)
+
+
+ begin output
+
+ total active power generation =      50.44
+ total active power load       =      46.75
+ total active power loss       =       3.69
+ total i2r    power loss       =       3.69
+ jacobian fill factor          =       0.01 percent
+ total number of jacobian elements used =        220, total number of
+ fill-ins during jacobian reduction =           -156.
+ build negative sequence admittance matrix for harmonic   5.00
+ check network continuity
+ build negative sequence impedance matrix for harmonic  5.00
+ jacobian fill factor =    0.1 percent
+ calculating branch currents for harmonic    5
+ build positive sequence admittance matrix for harmonic   7.00
+ check network continuity
+ build positive sequence impedance matrix for harmonic  7.00
+ jacobian fill factor =    0.1 percent
+ calculating branch currents for harmonic    7
+ build negative sequence admittance matrix for harmonic  11.00
+ check network continuity
+ build negative sequence impedance matrix for harmonic 11.00
+ jacobian fill factor =    0.1 percent
+ calculating branch currents for harmonic   11
+ build positive sequence admittance matrix for harmonic  13.00
+ check network continuity
+ build positive sequence impedance matrix for harmonic 13.00
+ jacobian fill factor =    0.1 percent
+ calculating branch currents for harmonic   13
+ build negative sequence admittance matrix for harmonic  17.00
+ check network continuity
+ build negative sequence impedance matrix for harmonic 17.00
+ jacobian fill factor =    0.1 percent
+ calculating branch currents for harmonic   17
+ build positive sequence admittance matrix for harmonic  19.00
+ check network continuity
+ build positive sequence impedance matrix for harmonic 19.00
+ jacobian fill factor =    0.1 percent
+ calculating branch currents for harmonic   19
+ build negative sequence admittance matrix for harmonic  23.00
+ check network continuity
+ build negative sequence impedance matrix for harmonic 23.00
+ jacobian fill factor =    0.1 percent
+ calculating branch currents for harmonic   23
+ build positive sequence admittance matrix for harmonic  25.00
+ check network continuity
+ build positive sequence impedance matrix for harmonic 25.00
+ jacobian fill factor =    0.1 percent
+ calculating branch currents for harmonic   25
+ build negative sequence admittance matrix for harmonic  29.00
+ check network continuity
+ build negative sequence impedance matrix for harmonic 29.00
+ jacobian fill factor =    0.1 percent
+ calculating branch currents for harmonic   29
+ build positive sequence admittance matrix for harmonic  31.00
+ check network continuity
+ build positive sequence impedance matrix for harmonic 31.00
+ jacobian fill factor =    0.1 percent
+ calculating branch currents for harmonic   31
+ build negative sequence admittance matrix for harmonic  35.00
+ check network continuity
+ build negative sequence impedance matrix for harmonic 35.00
+ jacobian fill factor =    0.1 percent
+ calculating branch currents for harmonic   35
+ build positive sequence admittance matrix for harmonic  37.00
+ check network continuity
+ build positive sequence impedance matrix for harmonic 37.00
+ jacobian fill factor =    0.1 percent
+ calculating branch currents for harmonic   37
+ build negative sequence admittance matrix for harmonic  41.00
+ check network continuity
+ build negative sequence impedance matrix for harmonic 41.00
+ jacobian fill factor =    0.1 percent
+ calculating branch currents for harmonic   41
+ build positive sequence admittance matrix for harmonic  43.00
+ check network continuity
+ build positive sequence impedance matrix for harmonic 43.00
+ jacobian fill factor =    0.1 percent
+ calculating branch currents for harmonic   43
+ build negative sequence admittance matrix for harmonic  47.00
+ check network continuity
+ build negative sequence impedance matrix for harmonic 47.00
+ jacobian fill factor =    0.1 percent
+ calculating branch currents for harmonic   47
+ build positive sequence admittance matrix for harmonic  49.00
+ check network continuity
+ build positive sequence impedance matrix for harmonic 49.00
+ jacobian fill factor =    0.1 percent
+ calculating branch currents for harmonic   49
+ the highest voltage for harmonic  1 is  1.000 pu, at bus     1, "Sub 1       "
+ the highest voltage for harmonic  5 is  0.025 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic  7 is  0.024 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 11 is  0.024 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 13 is  0.024 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 17 is  0.024 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 19 is  0.024 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 23 is  0.023 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 25 is  0.024 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 29 is  0.023 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 31 is  0.023 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 35 is  0.024 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 37 is  0.023 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 41 is  0.023 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 43 is  0.023 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 47 is  0.023 pu, at bus    13, "Sub 13      "
+ the highest voltage for harmonic 49 is  0.023 pu, at bus    13, "Sub 13      "
+ the highest voltage thd,    10.71 percent, occurs at bus    13, "Sub 13      "
+
+                                                                                                                         , pcflo version = 6.0.        
+ end of run

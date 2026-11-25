@@ -1,0 +1,9 @@
+ "                                                                                                                        , pcflo version = 6.0.        ac"
+ ,,,,,,,control bus
+ area,,name,p export,p gen,p load,p loss,number,name,p gen
+ "* swing bus number =     1, name = Sub 1       "
+
+ total active power generation =      50.44
+ total active power load       =      46.75
+ total active power loss       =       3.69
+ total i2r    power loss       =       3.69

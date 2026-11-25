@@ -1,0 +1,14 @@
+
+:Case using input files with extension = _ieee18.csv
+:Full Harmonic Solution
+:Full Harmonic Solution Options,,,,,,,,,
+:,,,,,,,,,
+:,,,,,,,Harmonic Load Model, ,
+:Optimal,,P & Q,Accel.,Update,,Highest,for PQ Linear Loads,Global,
+:Bus,,Mismatch,Factor,Cap,P & Q,Harmonic,0 or 1:  Resistive-only (recommended),Linear,Global
+:Ordering,Gauss-,for Gauss-,for Gauss-,for Gauss-,Mismatch,of,2:  Parallel R & L Model,Motor,Resistance
+:Method,Seidel,Seidel,Seidel,Seidel,Solution,Interest,3:  Series R & L Model,Load,Doubling
+:(Integer),Start?,Start,Start,Start,Tolerance,(Integer),4:  Ignore PQ Loads (i.e. No Model),Modeling,Harmonic
+:(1-2-3),(T or F),(0.5 pu),(1.2 pu),(0.005 pu),(5E-06 pu),(1 - 49),(0 - 4),Fraction,(I)
+:(I),(L),(F),(F),(F),(F),(I),(I),(F),(I)
+2         ,T,0.5,1.2,0.005,5.0e-6,49,2,0,0

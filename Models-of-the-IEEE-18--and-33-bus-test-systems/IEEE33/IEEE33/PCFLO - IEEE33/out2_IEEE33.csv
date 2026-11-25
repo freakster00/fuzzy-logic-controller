@@ -1,0 +1,165 @@
+ pcflo version 6.0.        
+ U.T. Austin Power System Engineering                                                                                    
+ capabilities =  5000 busses, 12500 lines and transformers
+
+                                                                                                                         , pcflo version = 6.0.        
+
+ bus data - pu  (percent power)
+                   shunt                                                                bus
+                     con                                                                con
+  bus  name         type         r1        x1        r2        x2        r0        x0  type        rg        xg
+    1  Sub 1          0      0.0020    0.0200    0.0020    0.0200    0.0020    0.0200    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+    2  Sub 2          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+    3  Sub 3          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+    4  Sub 4          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+    5  Sub 5          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+    6  Sub 6          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+    7  Sub 7          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+    8  Sub 8          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+    9  Sub 9          0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   10  Sub 10         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   11  Sub 11         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   12  Sub 12         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   13  Sub 13         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    21 ***
+ user-specified spectral data is needed for this bus to perform
+ a full harmonics study
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   14  Sub 14         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   15  Sub 15         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   16  Sub 16         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   17  Sub 17         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   18  Sub 18         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   19  Sub 19         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   20  Sub 20         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   21  Sub 21         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   22  Sub 22         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   23  Sub 23         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   24  Sub 24         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   25  Sub 25         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    21 ***
+ user-specified spectral data is needed for this bus to perform
+ a full harmonics study
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   26  Sub 26         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   27  Sub 27         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   28  Sub 28         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   29  Sub 29         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   30  Sub 30         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   31  Sub 31         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   32  Sub 32         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+   33  Sub 33         0      0.0000    0.0000    0.0000    0.0000    0.0000    0.0000    0     0.0000    0.0000
+ *** for above, message code =    16 ***
+ grounded wye connection assumed
+ number of busses =    33, number of pv busses =     0,
+ number of remote controlled voltage busses =        0
+
+                                                                                                                         , pcflo version = 6.0.        
+
+ line and transformer data - pu  (tap in per unit, phase shift in degrees)
+                                    trans
+ from    to                           con
+  bus   bus ckt        r0        x0        c0  type         rg        xg
+    1     2   0      0.00      0.00      0.00     1       0.00      0.00
+ *** for above, message code =    13 ***
+ zero sequence data not specified.  will not be able to perform zero
+ sequence fault or harmonic analyses.  only one message of this type will appear.
+    2     3   0      0.00      0.00      0.00     0       0.00      0.00
+    3     4   0      0.00      0.00      0.00     0       0.00      0.00
+    4     5   0      0.00      0.00      0.00     0       0.00      0.00
+    5     6   0      0.00      0.00      0.00     0       0.00      0.00
+    6     7   0      0.00      0.00      0.00     0       0.00      0.00
+    7     8   0      0.00      0.00      0.00     0       0.00      0.00
+    8     9   0      0.00      0.00      0.00     0       0.00      0.00
+    9    10   0      0.00      0.00      0.00     0       0.00      0.00
+   10    11   0      0.00      0.00      0.00     0       0.00      0.00
+   11    12   0      0.00      0.00      0.00     0       0.00      0.00
+   12    13   0      0.00      0.00      0.00     0       0.00      0.00
+   13    14   0      0.00      0.00      0.00     0       0.00      0.00
+   14    15   0      0.00      0.00      0.00     0       0.00      0.00
+   15    16   0      0.00      0.00      0.00     0       0.00      0.00
+   16    17   0      0.00      0.00      0.00     0       0.00      0.00
+   17    18   0      0.00      0.00      0.00     0       0.00      0.00
+    2    19   0      0.00      0.00      0.00     0       0.00      0.00
+   19    20   0      0.00      0.00      0.00     0       0.00      0.00
+   20    21   0      0.00      0.00      0.00     0       0.00      0.00
+   21    22   0      0.00      0.00      0.00     0       0.00      0.00
+    3    23   0      0.00      0.00      0.00     0       0.00      0.00
+   23    24   0      0.00      0.00      0.00     0       0.00      0.00
+   24    25   0      0.00      0.00      0.00     0       0.00      0.00
+    6    26   0      0.00      0.00      0.00     0       0.00      0.00
+   26    27   0      0.00      0.00      0.00     0       0.00      0.00
+   27    28   0      0.00      0.00      0.00     0       0.00      0.00
+   28    29   0      0.00      0.00      0.00     0       0.00      0.00
+   29    30   0      0.00      0.00      0.00     0       0.00      0.00
+   30    31   0      0.00      0.00      0.00     0       0.00      0.00
+   31    32   0      0.00      0.00      0.00     0       0.00      0.00
+   32    33   0      0.00      0.00      0.00     0       0.00      0.00
+ number of lines  =    31, number of transformers =     1,
+ number of voltage regulating transformers =     0
+ number of phase regulating transformers =     0
+
+                                                                                                                         , pcflo version = 6.0.        
+ end of run
